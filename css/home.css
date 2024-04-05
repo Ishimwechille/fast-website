@@ -1,0 +1,265 @@
+ .fast{
+      background-color: rgba(79, 130, 231, 0.699);  
+      /* display: flex; 
+    justify-content: space-between;  */
+
+
+}
+/* Navigation bar styles: */
+.fas {
+     float: left;  /*Align logo to the right  */
+     margin-top:0.100cap; /* Optional: Add some margin from the top */
+     font-size: larger;
+  } 
+  
+  .fas_nav ul {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between; /* Distribute links evenly */
+    width:70%; /* Take full width of available space */
+    list-style: none; /* Remove default bullet points */
+    padding:1px 5px 5px;/* Remove default padding */
+    margin-left:29.5%; /* Remove default margin */
+    margin-bottom:89px;
+    margin-top:0px;
+    
+  }
+  
+  .fas_nav li {
+    padding: 10px 20px; /* Add some padding for better spacing */
+  }
+  
+  .fas_nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link text color */
+  }
+  
+  /* Second section styles: */
+  .fast_second {
+    /* border: 2px solid red; */
+    padding: 20px; /* Add some padding for content */
+    /* Consider using flexbox or grid for more complex layouts in this section */
+    text-align: center;
+    /* color: white; */
+  }
+  .fast_second p{
+    /* border: 2px solid green; */
+    margin-left:35%;
+    width:45%;
+  }
+  .fast_second h1{
+    font-size: larger;
+
+  }
+  .enter{
+     /* border: 2px solid ;  */
+    display: flex;
+    margin-left:20px;
+    margin: 1px 2px; /* Margin of 1px on top/bottom and 2px on left/right */
+  padding: 5px; /* Add some padding for better spacing within the link */
+  width: 100%;
+
+
+  }
+  .selecter {
+    border: 2px solid;
+    margin: 3px 10px; /* Margin of 1px on top/bottom and 2px on left/right */
+  padding: 5px; /* Add some padding for better spacing within the link */
+  width:20%;
+border-radius:5%;
+ 
+  }
+  .key{
+    border: 2px solid;  
+    margin: 3px 5px; /* Margin of 1px on top/bottom and 2px on left/right */
+  padding: 5px; /* Add some padding for better spacing within the link */
+  width:20%;
+  border-radius:5%;
+
+
+  }
+  .submit{
+     border:2px solid; 
+    width:20%;
+    border-radius:5%;
+
+  }
+  .opt{
+      border:0px solid;  
+    width:98%;
+     border-radius:5%;  
+    
+  }
+.check ul{
+    border: 0px solid ;
+    display: flex;
+    justify-content: center;
+    box-sizing: 10px;
+    margin: 3px 5px; 
+    padding: 5px 2px 3px;
+    list-style: none;
+    
+}
+.fas_nav li :hover{
+    background-color: #d2184a; /* Light background */
+  color: #52cd15; /* Darker text for contrast */
+  font-weight: bold; /* Make text bold */   
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.submit{
+    border: 0px solid ;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.146);
+
+}
+.submit :hover{
+    border: 2px solid red;
+  background-color: red; /* Light background */
+  color: #52cd15; /* Darker text for contrast */
+  font-weight: bold; /* Make text bold */   
+  box-shadow: 0px 2px 5px rgba(143, 13, 13, 0.1); /* Subtle shadow on hover */
+
+}
+.submit button{
+    width:100%;
+    margin-bottom:5px;
+    margin-top:6px;
+}
+.cavans{
+  height: 20px;
+}
+.cavans ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    background-color: red;
+    /* border-radius: 30%; */
+   padding: 50px;
+   justify-content: space-around;
+   
+}
+.cavans li{
+  /* border: 2px solid blue; */
+  list-style: none;
+}
+.cavans h5{
+  /* border: 2px solid blue; */
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px 5px 8px ;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+
+
+}
+.cavans li :hover{
+  border: 0px solid rgba(255, 0, 0, 0.512);
+  /* color: rgb(255, 0, 98); */
+  cursor: pointer;
+  box-shadow: 0px 5px 6px rgba(165, 10, 10, 0.924);
+}
+.cavans img{
+  width: 100px;  
+  height: 100px; 
+  /* border: 6px solid black; */
+  /* border-radius: 35%;  */
+  padding: 20px; 
+  margin: 10px;
+}
+
+
+.search-popup {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  background-color: rgb(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-popup form input {
+  padding: 10px;
+  width: 800px;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.6);
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+.close-popup {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+.about {
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  /* Align elements vertically in the center */
+  margin-top: 40px;  /* Add margin from top section */
+  padding: 20px;  
+  border: 1px solid #ddd;  
+  background-color: #f5f5f5;  
+}
+
+.ab {
+  width: 60%;  
+  /* flex-wrap: wrap;   */
+}
+.ab p {
+  margin-bottom: 20px; 
+}
+
+.out img {
+  width: 100%;  
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.display {
+  font-size: 24px;
+  padding: 10px;
+  text-align: right;
+  border: none;
+  background-color: #eee;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.btn {
+  width: calc(25% - 10px);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.clear, .equal {
+  background-color: #f00;
+  color: white;
+}
+
+.operator {
+  background-color: #ddd;
+}
+
+.decimal {
+  background-color: #eee;
+}

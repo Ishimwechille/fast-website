@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>home</title>
+</head>
+<body>
+    <nav class="fast">
+        <div class="fas">
+            <h1>Hirevac</h1>
+        </div>
+        <div class="fas_nav">
+            <ul>
+                <li>
+                    <a href="" class="fas-a" name="HOME"> Home</a>
+                </li>
+                <li>
+                    <a href="" class="fas-a" name="ABOUT">About</a>
+                </li>
+                <li>
+                    <a href="" class="fas-a" name="JOBS">Jobs</a>
+                </li>
+                <li>
+                    <a href="" class="fas-a" name="FREELANCERS">Freelancers</a>
+                </li>
+                <li>
+                    <a href="" class="fas-a" name="LOGIN">
+                        <span>
+                            Login
+                          </span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="fas-a" name="SIGN UP">
+                        <span>
+                            Sign Up
+                          </span>
+                    </a>
+                </li>
+                <li>
+                    <button class="btn" onclick="showsearch()">
+                        <i class="search" aria-hidden="true"></i>
+                        search
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="fast_second">
+            <h1>
+                Build Your <br>
+                POWERFUL CAREER
+            </h1>
+            <p>
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to
+            </p>
+            <form action="" class="enter">
+                <div class="key">
+                    <input type="text" class="opt" placeholder="Keywords">
+                </div>
+                <div class="selecter" >
+                    <select name="" id="" class="opt" >
+                        <option value="" >All Locations</option>
+                        <option value="" >Location 2</option>
+                        <option value="" >Location 3</option>
+                    </select>
+                </div>
+                <div class="selecter">
+                    <select name="" id="" class="opt" >
+                        <option value=""  >SEO Expert</option>
+                        <option value=""  >Web Designer</option>
+                        <option value=""  >Web Developer</option>
+                        <option value=""  >Graphic Deesigner</option>
+                        <option value="" >Content Writer</option>
+                    </select>
+                     
+                </div>
+                <div class="submit">
+                    <button type="submit" placeholder="submit" >
+                        Submit
+                    </button> 
+                </div>
+                
+                  
+
+            </form>
+            <div class="check">
+                <ul>
+                    <li class="chec">
+                        <input type="checkbox"placeholder="Freelancer" class="chec"style="width:40px;
+                        " >
+                        <label for="" class="chec" >
+                            Freelancer
+                        </label>
+                    </li>
+                    <li class="chec">
+                        <input type="checkbox"placeholder="Part Time" class="che" style="width:40px;" >
+                        <label for="" class="chec" >
+                            Part Time
+                        </label>
+                    </li>
+                    <li class="chec" >
+                        <input type="checkbox"placeholder="Full Time" class="chec"style="width:40px; >
+                        <label for="" class="chec" >
+                            Full Time
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class=" cavans search-popup ">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="images/c1.png" alt="">
+                    </a> 
+                    <h5>Web Designer</h5>   
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/c2.png" alt="">
+                    </a>  
+                    <h5>Web Developer </h5>    
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/c3.png" alt="">
+                    </a>   
+                    <h5> Graphic Deesigner</h5> 
+
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/c4.png" alt="">
+                    </a>  
+                    <h5> Seo marketing</h5>  
+
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/c5.png" alt="">
+                    </a>    
+                    <h5> 
+                        Accounting
+                    </h5>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/c6.png" alt="">
+                    </a>   
+                    <h5>
+                        Content Writing
+                    </h5> 
+                </li>
+                
+            </ul>
+            
+        </div>
+    </section>
+    
+
+    <div class="search-popup" id="search-popup">
+        <form action="">
+            <input type="search" name="" id="">
+        </form>
+        <span onclick="showsearch()" class="close-popup">X</span>
+    </div>
+    <!-- <div class="about">
+        <div class="ab">
+            <h2>
+                ABOUT US
+            </h2>
+            <P>
+                Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors  
+            </P>
+                <a href="">Read More</a>
+            <div class="out">
+                <img src="images/about-img.jpg" alt="">
+            </div>
+        </div>
+    </div> -->
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+          <button class="btn" onclick="appendNumber('7')">7</button>
+          <button class="btn" onclick="appendNumber('8')">8</button>
+          <button class="btn" onclick="appendNumber('9')">9</button>
+          <button class="btn operator" onclick="appendOperator('/')">/</button>
+          <button class="btn" onclick="appendNumber('4')">4</button>
+          <button class="btn" onclick="appendNumber('5')">5</button>
+          <button class="btn" onclick="appendNumber('6')">6</button>
+          <button class="btn operator" onclick="appendOperator('*')">*</button>
+          <button class="btn" onclick="appendNumber('1')">1</button>
+          <button class="btn" onclick="appendNumber('2')">2</button>
+          <button class="btn" onclick="appendNumber('3')">3</button>
+          <button class="btn operator" onclick="appendOperator('-')">-</button>
+          <button class="btn clear" onclick="clearDisplay()">C</button>
+          <button class="btn" onclick="appendNumber('0')">0</button>
+          <button class="btn decimal" onclick="appendNumber('.')">.</button>
+          <button class="btn equal" onclick="calculate()">=</button>
+          <button class="btn operator" onclick="appendOperator('+')">+</button>
+        </div>
+
+    <script src="js/home.js"></script>
+
+</bod>
+
+</html>
